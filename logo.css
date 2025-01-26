@@ -1,0 +1,39 @@
+/* Fullscreen preloader style */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(20, 1, 1);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Video styling */
+#preloaderVideo {
+  width: 100%;
+  height: auto;
+}
+
+/* Team photo section (hidden initially) */
+.team24 {
+  display: none; /* Initially hide the team photo */
+  position: fixed; /* Fixed to the entire viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensuring the image inside the team24 is responsive */
+.team24 img {
+  max-width: 100%;
+  height: auto;
+}
